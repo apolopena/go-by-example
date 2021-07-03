@@ -1,4 +1,6 @@
 #!/bin/bash
+# b.sh: Build a go binary from src/ into bin/, execute that binary if a -e flag is passed
+
 check() {
   [[ ! -f $f ]] && echo "Error: $f does not exist" && exit 1
   return 0
