@@ -1,0 +1,3 @@
+# bin directory is for compiled binaries
+bin/*
+!bin/.gitkeep
