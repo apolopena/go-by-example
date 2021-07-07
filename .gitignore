@@ -1,3 +1,6 @@
 # bin directory is for compiled binaries
 bin/*
 !bin/.gitkeep
+
+# scratch pad code file
+src/ap-scratch.go
