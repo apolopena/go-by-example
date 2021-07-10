@@ -7,11 +7,6 @@ import (
 	"time"
 )
 
-func benchmark(start time.Time, name string) string {
-	elapsed := time.Since(start)
-	return fmt.Sprintf("%s took %s", name, elapsed)
-}
-
 type Primes struct {
 	Prime     []int
 	NotPrime  []int
